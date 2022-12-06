@@ -1,10 +1,8 @@
 name: Run Workflow
-on: push
+on: workflow_dispatch
 jobs:
   manual-workflow:
     runs-on: ubuntu-latest
     steps:
       - name: Manual Dispatch
-        run: |
-          echo 'run first command',
-          echo 'run second command
+        run: echo 'welcome....'
